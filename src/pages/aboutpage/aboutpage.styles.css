@@ -1,17 +1,17 @@
 .about {
-  height: 150vh;
+  height: 170vh;
   background-image: linear-gradient(to right bottom,  #271c2ecc, #443c44cc), url('./artist-photo.jpg');
-  background-size: 75%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  -webkit-clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 0);
-  clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 0);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 0);
 }
 
 .text-box {
   position:absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;

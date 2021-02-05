@@ -1,0 +1,104 @@
+.about {
+  height: 150vh;
+  background-image: linear-gradient(to right bottom,  #271c2ecc, #443c44cc), url('./artist-photo.jpg');
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 0);
+}
+
+.text-box {
+  position:absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color:#ffff;
+  
+}
+
+.artist {
+  font-size: 5rem;
+  animation-name:moveInRight;
+  animation-duration:1s;
+}
+
+.name {
+  font-size: 6rem;
+  animation-name:moveInLeft;
+  animation-duration:1s
+}
+.details {
+  font-size: 2rem;
+}
+
+.contact {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.contact span {
+  font-weight: 700;
+}
+@keyframes moveInRight {
+  0% {
+    opacity:0;
+    transform:translateX(10rem);
+  }
+  80% {
+    transform:translateX(-1rem);
+
+  }
+  100% {
+    opacity:1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity:0;
+    transform:translateX(-10rem);
+  }
+  80% {
+    transform:translateX(1rem);
+
+  }
+  100% {
+    opacity:1;
+    transform: translate(0);
+  }
+}
+
+@media  (max-width: 500px) {
+  .details {
+    font-size: 1rem;
+  }
+}
+
+@media  (max-width: 500px) {
+  .artist {
+    font-size: 2rem;
+  }
+}
+
+@media  (max-width: 500px) {
+  .name {
+    font-size: 2rem;
+  }
+}
+
+@media  (max-width: 500px) {
+  .contact {
+    font-size: 1rem;
+  }
+}
+
+@media  (max-width: 500px) {
+  .about {
+    background-size: 65%;
+    height:170vh;
+  }
+}

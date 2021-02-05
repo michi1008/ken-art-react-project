@@ -1,0 +1,10 @@
+.directory-menu {
+  width: 100%;
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(30rem, 1fr));
+  justify-self: center;
+  grid-gap:3rem 4rem;
+  background-size: cover;
+  margin-top:3rem;
+}
+

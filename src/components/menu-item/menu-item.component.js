@@ -20,7 +20,9 @@ const MenuItem = ({ item, addItem }) => {
         backgroundImage: `url(${imageUrl})`
       }}
     />
+    <div className='container'>
     <CustomButton onClick={() => addItem(item)} inverted>Add to cart</CustomButton>
+    </div>
     <div className='content'>
       <h1 className='art-title'>{title.toUpperCase()}</h1>
       <h1 className='price'>$ {price}</h1>     

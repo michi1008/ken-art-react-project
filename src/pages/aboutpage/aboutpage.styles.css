@@ -108,6 +108,7 @@
   .about {
     background-size: 100%;
     background-position:top;
+    background-repeat: repeat;
     height:180vh;
   }
 }

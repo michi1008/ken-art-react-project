@@ -19,6 +19,12 @@
   
 }
 
+@media  (max-width: 500px) {
+  .text-box {
+    top:37%;
+  }
+}
+
 .artist {
   font-size: 5rem;
   animation-name:moveInRight;
@@ -75,12 +81,14 @@
 @media  (max-width: 500px) {
   .details {
     font-size: 1rem;
+   
   }
 }
 
 @media  (max-width: 500px) {
   .artist {
     font-size: 2rem;
+
   }
 }
 
@@ -98,7 +106,9 @@
 
 @media  (max-width: 500px) {
   .about {
-    background-size: 65%;
-    height:170vh;
+    background-size: 100%;
+    background-position:top;
+    height:180vh;
   }
 }
+

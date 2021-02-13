@@ -8,17 +8,17 @@ import { addItem } from '../../redux/cart/cart.actions';
 const MenuItem = ({ item, addItem }) => {
   const {title, imageUrl, price} = item;
   
-
+ 
   return (
   <div className='menu-item'>
      <div className='original'>
-      <img src={imageUrl} alt='digital art' width='100%' height='auto'/>
+      <img src={imageUrl} alt='digital art' width='100%' height='auto' />
     </div> 
     <div
       className='background-image'
       style={{
         backgroundImage: `url(${imageUrl})`
-      }}
+      }}  
     />
     <div className='container'>
     <CustomButton onClick={() => addItem(item)} inverted>Add to cart</CustomButton>

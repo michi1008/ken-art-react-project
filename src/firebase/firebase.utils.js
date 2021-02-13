@@ -4,13 +4,14 @@ import 'firebase/auth';
 
 const config = {
   
-    apiKey: "AIzaSyAwdPNqXNEid4K6ifTJbcEjXgGXB7baETA",
-    authDomain: "ken-lange-digital-collage-art.firebaseapp.com",
-    projectId: "ken-lange-digital-collage-art",
-    storageBucket: "ken-lange-digital-collage-art.appspot.com",
-    messagingSenderId: "2235736760",
-    appId: "1:2235736760:web:a7022ab75d5b5d68f08a4d",
-    measurementId: "G-1NR3042LMG"
+  apiKey: "AIzaSyAwdPNqXNEid4K6ifTJbcEjXgGXB7baETA",
+  authDomain: "ken-lange-digital-collage-art.firebaseapp.com",
+  databaseURL: "https://ken-lange-digital-collage-art-default-rtdb.firebaseio.com",
+  projectId: "ken-lange-digital-collage-art",
+  storageBucket: "ken-lange-digital-collage-art.appspot.com",
+  messagingSenderId: "2235736760",
+  appId: "1:2235736760:web:a7022ab75d5b5d68f08a4d",
+  measurementId: "G-1NR3042LMG"
   };
 
   export const createUserProfileDocument = async (userAuth, additionalData) => {
